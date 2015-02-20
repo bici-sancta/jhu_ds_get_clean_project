@@ -150,3 +150,15 @@ Lastly, the files subject_test.txt and subject_train.txt are sinlge column vecto
 11879      30       LAYING     fBodyBodyGyroMag-std()   -0.9526444  
 11880      30       LAYING fBodyBodyGyroJerkMag-std()   -0.9754815  
 
+### Tidy data frame
+1. is writtent to file : project.txt
+2. These are the data fields:
+3. - Subject - Integer - represents the number of the person (subject) who participated in the measurements; the range of values for this experiement is 1 : 30
+4.  - Activity.Txt - Character - identifies the specific activity being performed during the measurements; there are six (6) possible values in this experiment : (LAYING, WALKING, etc)
+5.  - Feature - Character - identifies the type of activity being measured; there are 66 different measurement types in this summarized data table
+6.  - Feature.Mean - Value(Real) - this represents the arithmetic mean of the collection of measurements taken for (a) given subject, (b) performing stated activity, (c) for given feature.
+7.  - There are two (2) basic categories of measurements :
+8.                     (1) time-based, preceded by letter 't', units are likely in seconds
+9.                     (2) frequency-based, preceded by letter 'f', units are likely in acceleration units, such as 'g's'
+10.                     For each time-based and frequency-based measurement type, the measurements are grouped by either average measurement, terminating with -mean(), or standard deviation of the measurements, terminating with -std()
+11.                     For the 
