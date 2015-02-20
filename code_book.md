@@ -75,37 +75,37 @@ These are the only files read during the script execution :
 [36] ./UCI_HAR/train/y_train.txt   
   
 
-## activity_labels.txt has this information
+#### activity_labels.txt has this information
 
-> lbls
-  V1                 V2
-1  1            WALKING
-2  2   WALKING_UPSTAIRS
-3  3 WALKING_DOWNSTAIRS
-4  4            SITTING
-5  5           STANDING
-6  6             LAYING
+> lbls   
+  V1                 V2  
+1  1            WALKING  
+2  2   WALKING_UPSTAIRS  
+3  3 WALKING_DOWNSTAIRS  
+4  4            SITTING  
+5  5           STANDING  
+6  6             LAYING  
  
 
-## features.txt has this information (561 rows)
+#### features.txt has this information (561 rows)
 
-> head(ftrs)
-  V1                V2
-1  1 tBodyAcc-mean()-X
-2  2 tBodyAcc-mean()-Y
-3  3 tBodyAcc-mean()-Z
-4  4  tBodyAcc-std()-X
-5  5  tBodyAcc-std()-Y
-6  6  tBodyAcc-std()-Z
+> head(ftrs)  
+  V1                V2  
+1  1 tBodyAcc-mean()-X  
+2  2 tBodyAcc-mean()-Y  
+3  3 tBodyAcc-mean()-Z  
+4  4  tBodyAcc-std()-X  
+5  5  tBodyAcc-std()-Y  
+6  6  tBodyAcc-std()-Z  
 
-> tail(ftrs)
-     V1                                   V2
-556 556 angle(tBodyAccJerkMean),gravityMean)
-557 557     angle(tBodyGyroMean,gravityMean)
-558 558 angle(tBodyGyroJerkMean,gravityMean)
-559 559                 angle(X,gravityMean)
-560 560                 angle(Y,gravityMean)
-561 561                 angle(Z,gravityMean)
+> tail(ftrs)  
+     V1                                   V2  
+556 556 angle(tBodyAccJerkMean),gravityMean)  
+557 557     angle(tBodyGyroMean,gravityMean)  
+558 558 angle(tBodyGyroJerkMean,gravityMean)  
+559 559                 angle(X,gravityMean)  
+560 560                 angle(Y,gravityMean)  
+561 561                 angle(Z,gravityMean)  
 
 y_test.txt and y_train.txt are single column files, each value representing the 'Activity Number' corresponding to the activity provided in 'activity_labels.txt'. These values range from 1 to 6.
 
@@ -114,7 +114,8 @@ These files have 561 columns of measured values, corresponding to the labels pro
 
 Lastly, the files subject_test.txt and subject_train.txt are sinlge column vectors, providing the 'Subject Number' of the person who participated in that measurement. These values range from 1 to 30.
 
-To process the data, the follwing steps are taken :
+To process the data, the follwing steps are taken : 
+
 1. read in all of the data files
 2. since the main data files (X_test, X_train) do not have column labels, use the data labels as provided in the features.txt file to define column labels for both X_test and X_train
 3. the course project defines to just use the features that either 'mean' or 'std' measured values, so identify the appropriate columns
@@ -132,21 +133,21 @@ To process the data, the follwing steps are taken :
 
 ## The final data frame looks like this :
 
-> head(tidy)
-  Subject Activity.Txt              Feature Feature.Mean
-1       1      WALKING    tBodyAcc-mean()-X   0.27733076
-2       1      WALKING    tBodyAcc-mean()-Y  -0.01738382
-3       1      WALKING    tBodyAcc-mean()-Z  -0.11114810
-4       1      WALKING tGravityAcc-mean()-X   0.93522320
-5       1      WALKING tGravityAcc-mean()-Y  -0.28216502
-6       1      WALKING tGravityAcc-mean()-Z  -0.06810286
-
-> tail(tidy)
-      Subject Activity.Txt                    Feature Feature.Mean
-11875      30       LAYING          fBodyGyro-std()-Y   -0.9651342
-11876      30       LAYING          fBodyGyro-std()-Z   -0.9721992
-11877      30       LAYING          fBodyAccMag-std()   -0.9640518
-11878      30       LAYING  fBodyBodyAccJerkMag-std()   -0.9680878
-11879      30       LAYING     fBodyBodyGyroMag-std()   -0.9526444
-11880      30       LAYING fBodyBodyGyroJerkMag-std()   -0.9754815
+> head(tidy)  
+  Subject Activity.Txt              Feature Feature.Mean  
+1       1      WALKING    tBodyAcc-mean()-X   0.27733076  
+2       1      WALKING    tBodyAcc-mean()-Y  -0.01738382  
+3       1      WALKING    tBodyAcc-mean()-Z  -0.11114810  
+4       1      WALKING tGravityAcc-mean()-X   0.93522320  
+5       1      WALKING tGravityAcc-mean()-Y  -0.28216502  
+6       1      WALKING tGravityAcc-mean()-Z  -0.06810286  
+ 
+> tail(tidy)  
+      Subject Activity.Txt                    Feature Feature.Mean  
+11875      30       LAYING          fBodyGyro-std()-Y   -0.9651342  
+11876      30       LAYING          fBodyGyro-std()-Z   -0.9721992  
+11877      30       LAYING          fBodyAccMag-std()   -0.9640518  
+11878      30       LAYING  fBodyBodyAccJerkMag-std()   -0.9680878  
+11879      30       LAYING     fBodyBodyGyroMag-std()   -0.9526444  
+11880      30       LAYING fBodyBodyGyroJerkMag-std()   -0.9754815  
 
