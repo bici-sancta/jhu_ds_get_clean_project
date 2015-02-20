@@ -1,13 +1,13 @@
 # jhu_ds_get_clean_project
 
- ...	-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
- ...			coursera - getting & cleaning data - class project
-                                               2015-fév-17-
- ...	-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ ...	-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  
+ ...			coursera - getting & cleaning data - class project  
+                                               2015-fév-17-  
+ ...	-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  
  
- Thes are the project instructions  ...
+ Thes are the project instructions  ...  
 
-   You should create one R script called run_analysis.R that does the following. 
+   You should create one R script called run_analysis.R that does the following.   
 
    1. Merges the training and the test sets to create one data set.
    2. Extracts only the measurements on the mean and standard deviation for each measurement. 
