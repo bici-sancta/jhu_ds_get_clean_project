@@ -114,7 +114,7 @@ These files have 561 columns of measured values, corresponding to the labels pro
 
 Lastly, the files subject_test.txt and subject_train.txt are sinlge column vectors, providing the 'Subject Number' of the person who participated in that measurement. These values range from 1 to 30.
 
-To process the data, the follwing steps are taken : 
+### To process the data, the follwing steps are taken : 
 
 1. read in all of the data files
 2. since the main data files (X_test, X_train) do not have column labels, use the data labels as provided in the features.txt file to define column labels for both X_test and X_train
@@ -133,7 +133,7 @@ To process the data, the follwing steps are taken :
 
 ## The final data frame looks like this :
 
-> head(tidy)  
+####> head(tidy)  
   Subject Activity.Txt              Feature Feature.Mean  
 1       1      WALKING    tBodyAcc-mean()-X   0.27733076  
 2       1      WALKING    tBodyAcc-mean()-Y  -0.01738382  
@@ -142,7 +142,7 @@ To process the data, the follwing steps are taken :
 5       1      WALKING tGravityAcc-mean()-Y  -0.28216502  
 6       1      WALKING tGravityAcc-mean()-Z  -0.06810286  
  
-> tail(tidy)  
+####> tail(tidy)  
       Subject Activity.Txt                    Feature Feature.Mean  
 11875      30       LAYING          fBodyGyro-std()-Y   -0.9651342  
 11876      30       LAYING          fBodyGyro-std()-Z   -0.9721992  
