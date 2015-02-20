@@ -1,10 +1,10 @@
 # jhu_ds_get_clean_project
  ...	-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  
  
- ### This repositiry is the course project for :  
- #### John Hopkins University - Coursera Class  
- ##### getting & cleaning data  
- ###### 2015-fév-17-    
+### This repository is the course project for :  
+#### John Hopkins University - Coursera Class  
+##### getting & cleaning data  
+###### 2015-fév-17-    
  ...	-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  
  
  Thes are the project instructions  ...  
