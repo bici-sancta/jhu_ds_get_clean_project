@@ -57,7 +57,7 @@ The files provided from the above .zip file are :
 
 # To run the code :
 1. install run_analysis.R in current working directory  
-2. from the current working directory, the above listed data faile should be arranged in directory /UCI_HAR / with the directory tree as shown in the list.  
+2. from the current working directory, the above listed data file should be arranged in directory /UCI_HAR / with the directory tree as shown in the list.  
 
 The Intertial Signals files are not used in the data manipulation exercise.
 
