@@ -36,23 +36,23 @@ The files provided from the above .zip file are :
 [17] ./UCI_HAR/test/Inertial Signals/body_gyro_y_test.txt   
 [18] ./UCI_HAR/test/Inertial Signals/body_gyro_z_test.txt   
 [19] ./UCI_HAR/test/Inertial Signals/total_acc_x_test.txt 
-[20] ./UCI_HAR/test/Inertial Signals/total_acc_y_test.txt   
-[21] ./UCI_HAR/test/Inertial Signals/total_acc_z_test.txt 
-[22] ./UCI_HAR/test/subject_test.txt 
-[23] ./UCI_HAR/test/X_test.txt
-[24] ./UCI_HAR/test/y_test.txt 
-[25] ./UCI_HAR/train/Inertial Signals/body_acc_x_train.txt 
-[26] ./UCI_HAR/train/Inertial Signals/body_acc_y_train.txt 
-[27] ./UCI_HAR/train/Inertial Signals/body_acc_z_train.txt 
-[28] ./UCI_HAR/train/Inertial Signals/body_gyro_x_train.txt
-[29] ./UCI_HAR/train/Inertial Signals/body_gyro_y_train.txt
-[30] ./UCI_HAR/train/Inertial Signals/body_gyro_z_train.txt
-[31] ./UCI_HAR/train/Inertial Signals/total_acc_x_train.txt
-[32] ./UCI_HAR/train/Inertial Signals/total_acc_y_train.txt
-[33] ./UCI_HAR/train/Inertial Signals/total_acc_z_train.txt
-[34] ./UCI_HAR/train/subject_train.txt 
-[35] ./UCI_HAR/train/X_train.txt 
-[36] ./UCI_HAR/train/y_train.txt
+[20] ./UCI_HAR/test/Inertial Signals/total_acc_y_test.txt     
+[21] ./UCI_HAR/test/Inertial Signals/total_acc_z_test.txt   
+[22] ./UCI_HAR/test/subject_test.txt   
+[23] ./UCI_HAR/test/X_test.txt  
+[24] ./UCI_HAR/test/y_test.txt   
+[25] ./UCI_HAR/train/Inertial Signals/body_acc_x_train.txt   
+[26] ./UCI_HAR/train/Inertial Signals/body_acc_y_train.txt   
+[27] ./UCI_HAR/train/Inertial Signals/body_acc_z_train.txt   
+[28] ./UCI_HAR/train/Inertial Signals/body_gyro_x_train.txt  
+[29] ./UCI_HAR/train/Inertial Signals/body_gyro_y_train.txt  
+[30] ./UCI_HAR/train/Inertial Signals/body_gyro_z_train.txt  
+[31] ./UCI_HAR/train/Inertial Signals/total_acc_x_train.txt  
+[32] ./UCI_HAR/train/Inertial Signals/total_acc_y_train.txt  
+[33] ./UCI_HAR/train/Inertial Signals/total_acc_z_train.txt  
+[34] ./UCI_HAR/train/subject_train.txt   
+[35] ./UCI_HAR/train/X_train.txt    
+[36] ./UCI_HAR/train/y_train.txt   
 
 
 # To run the code :
@@ -63,17 +63,17 @@ The files provided from the above .zip file are :
 The Intertial Signals files are not used in the data manipulation exercise.
 
 These are the only files read during the script execution :
- [9] ./UCI_HAR/activity_labels.txt
-[11] ./UCI_HAR/features.txt
+ [9] ./UCI_HAR/activity_labels.txt  
+[11] ./UCI_HAR/features.txt  
 
-[22] ./UCI_HAR/test/subject_test.txt
-[23] ./UCI_HAR/test/X_test.txt
-[24] ./UCI_HAR/test/y_test.txt 
+[22] ./UCI_HAR/test/subject_test.txt  
+[23] ./UCI_HAR/test/X_test.txt  
+[24] ./UCI_HAR/test/y_test.txt   
 
-[34] ./UCI_HAR/train/subject_train.txt 
-[35] ./UCI_HAR/train/X_train.txt 
-[36] ./UCI_HAR/train/y_train.txt 
-
+[34] ./UCI_HAR/train/subject_train.txt   
+[35] ./UCI_HAR/train/X_train.txt   
+[36] ./UCI_HAR/train/y_train.txt   
+  
 
 ## activity_labels.txt has this information
 
