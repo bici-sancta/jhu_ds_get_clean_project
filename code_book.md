@@ -62,9 +62,9 @@ The files provided from the above .zip file are :
 
 The Intertial Signals files are not used in the data manipulation exercise.
 
-These are the only files read during the script execution :
- [9] ./UCI_HAR/activity_labels.txt  
-[11] ./UCI_HAR/features.txt  
+These are the only files read during the script execution :  
+ [9] ./UCI_HAR/activity_labels.txt    
+[11] ./UCI_HAR/features.txt    
 
 [22] ./UCI_HAR/test/subject_test.txt  
 [23] ./UCI_HAR/test/X_test.txt  
