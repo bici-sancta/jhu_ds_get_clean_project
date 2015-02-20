@@ -163,5 +163,3 @@ Lastly, the files subject_test.txt and subject_train.txt are sinlge column vecto
 10. For each time-based and frequency-based measurement type, the measurements are grouped by either average measurement, terminating with -mean(), or standard deviation of the measurements, terminating with -std()
 11. For each subject, for each activity, all of the measurements of a given type, e.g., 'tBodyAcc___mean()-X' are averaged (i.e., the arithmetic mean) and that result is stored in the data column Feature.Mean associated to the observation of that subject, that activity, and that feature.
 12. The units for these values are then either 'average seconds' for 't______' features and 'average g's' for 'g_______' features.
-13. 
-
