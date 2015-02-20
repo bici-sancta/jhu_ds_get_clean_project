@@ -26,14 +26,23 @@ The instructions for data manipulation are as follows :
 The files provided from the above .zip file are : 
                        
  [9] "./UCI_HAR/activity_labels.txt" 
+ 
 [10] "./UCI_HAR/features_info.txt" 
+
 [11] "./UCI_HAR/features.txt" 
+
 [12] "./UCI_HAR/README.txt" 
+
 [13] "./UCI_HAR/test/Inertial Signals/body_acc_x_test.txt"
+
 [14] "./UCI_HAR/test/Inertial Signals/body_acc_y_test.txt"
+
 [15] "./UCI_HAR/test/Inertial Signals/body_acc_z_test.txt" 
+
 [16] "./UCI_HAR/test/Inertial Signals/body_gyro_x_test.txt" 
+
 [17] "./UCI_HAR/test/Inertial Signals/body_gyro_y_test.txt" 
+
 [18] "./UCI_HAR/test/Inertial Signals/body_gyro_z_test.txt" 
 [19] "./UCI_HAR/test/Inertial Signals/total_acc_x_test.txt" 
 [20] "./UCI_HAR/test/Inertial Signals/total_acc_y_test.txt" 
