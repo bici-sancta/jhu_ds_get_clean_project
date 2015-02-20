@@ -120,16 +120,16 @@ Lastly, the files subject_test.txt and subject_train.txt are sinlge column vecto
 2. since the main data files (X_test, X_train) do not have column labels, use the data labels as provided in the features.txt file to define column labels for both X_test and X_train
 3. the course project defines to just use the features that either 'mean' or 'std' measured values, so identify the appropriate columns
 4. create a new data frame that has just the down-selected columns
-* (for this processing, the columns which have feature name 'meanFreq' were not selected for further processing)
-* this is now 68 columns of data
+- (for this processing, the columns which have feature name 'meanFreq' were not selected for further processing)
+- this is now 68 columns of data
 5. with the reduced data sets, add new columns of data, the y_test/y_train values and the subject values (this adds 2 new columns to the data frames)
 6. combine the _test and _train data sets together to create one data frame of all measured values
 7. use a matching procedure to look up 'activity name' associated to the 'activity number', and add that as yet another column in the data frame
 8. the data is then sub-setted to calculate the mean of each of the 66 features for each combination of subject and activity
 * this yields 6 * 30 = 180 combinations for each feature
 9. this subsetted data is then stored into one tidy data set with the following characteristics :
-* 4 columns : Subject, Activity Name, Feature, Feature.Mean
-* 6 * 30 * 66 = 11,880 columns
+- 4 columns : Subject, Activity Name, Feature, Feature.Mean
+- 6 * 30 * 66 = 11,880 columns
 
 ## The final data frame looks like this :
 
