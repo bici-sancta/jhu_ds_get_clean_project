@@ -20,5 +20,10 @@
  
  
 ## The data files used in the project and the script .R code are all explained in the code_book.md
+#### Files included in this repo are :
+- README.md
+- run_analysys.R (the script)
+- code_book.md ... explanation of method
+- proejct_output.txt ... sample output of script
  
  
